@@ -1,0 +1,73 @@
+[gd_scene load_steps=2 format=3 uid="uid://cofmfmch1kq3x"]
+
+[ext_resource type="Texture2D" uid="uid://c0gowuiysuy7g" path="res://arrow.png" id="1_ehlwg"]
+
+[node name="Test" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -409.0
+offset_bottom = -474.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Start" type="Button" parent="."]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 212.0
+offset_right = 163.0
+offset_bottom = 243.0
+text = "start"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 212.0
+offset_right = 241.0
+offset_bottom = 243.0
+text = "button"
+
+[node name="Button5" type="Button" parent="."]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 83.0
+offset_right = 241.0
+offset_bottom = 197.0
+text = "button"
+
+[node name="Button6" type="Button" parent="."]
+layout_mode = 0
+offset_left = 114.0
+offset_top = 175.0
+offset_right = 175.0
+offset_bottom = 206.0
+text = "button"
+
+[node name="Button4" type="Button" parent="."]
+layout_mode = 0
+offset_left = 262.0
+offset_top = 212.0
+offset_right = 383.0
+offset_bottom = 243.0
+text = "button"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 166.0
+offset_top = 294.0
+offset_right = 343.0
+offset_bottom = 317.0
+text = "RIGHT: expected focus"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 198.0
+offset_top = 253.0
+offset_right = 238.0
+offset_bottom = 285.0
+rotation = -2.04221
+pivot_offset = Vector2(20.861, 15.5347)
+texture = ExtResource("1_ehlwg")
+expand_mode = 1
+stretch_mode = 4

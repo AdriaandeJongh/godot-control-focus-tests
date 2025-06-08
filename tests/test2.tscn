@@ -1,0 +1,57 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3ebrsjhvwvpd"]
+
+[ext_resource type="Texture2D" uid="uid://c0gowuiysuy7g" path="res://arrow.png" id="1_yx5hd"]
+
+[node name="Test" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -466.0
+offset_bottom = -538.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 261.0
+offset_bottom = 179.0
+columns = 2
+
+[node name="Start" type="Button" parent="GridContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+text = "start"
+
+[node name="Button2" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "button"
+
+[node name="Button3" type="Button" parent="GridContainer"]
+layout_mode = 2
+text = "button"
+
+[node name="Button4" type="Button" parent="GridContainer"]
+layout_mode = 2
+text = "button"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 142.0
+offset_right = 244.0
+offset_bottom = 165.0
+text = "DOWN: expected focus"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 86.0
+offset_right = 57.0
+offset_bottom = 116.0
+rotation = -1.90438
+pivot_offset = Vector2(20.861, 15.5347)
+texture = ExtResource("1_yx5hd")
+expand_mode = 1
+stretch_mode = 4
